@@ -10,7 +10,7 @@ End Sub
 
 
 'EXEパスを変更
-Public Property Set ChangeExePath(ByVal arg_ExePath As String)
+Public Property Let ChangeExePath(ByVal arg_ExePath As String)
     exePath = arg_ExePath
 End Property
 
