@@ -3,7 +3,7 @@ Private Const DEFAULT_EXE_PATH = "C:\Program Files\Everything\Everything.exe"
 Private exePath As String
 
 
-'初期値をセット
+'初期値をセット(test mod)
 Private Sub Class_Initialize()
     exePath = DEFAULT_EXE_PATH
 End Sub
